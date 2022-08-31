@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    max-height: 800px;
+    background-image: url(image/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    justify-content: center;
+    display: block;
+}
+
+.content{
+    border-radius: 15px;;
+    background: #FFFF;
+    display:block;
+    justify-content: center;
+    border: none;
+    width: 350px;
+    margin: 110px auto;
+    height: 550px;
+    font-size: 16px;
+}
+.content h1{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.content img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+h1, .info {
+    margin-top: 20px;
+    text-align: center;
+}
+.info{
+    margin-top: 15px;
+    padding:0 30px;
+    color:rgb(109, 107, 107);
+}
+.price-info{
+    border-radius: 15px;
+    padding: 20px;
+    background: hsl(225, 100%, 94%);
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    display: inline-flex;
+    justify-content: center;
+    margin-left:30px;
+}
+.price-info img{
+    width: 40px;
+    height: 40px;
+}
+.plan-section{
+    padding-left: 15px;
+    padding-right: 50px;
+    display: block;
+}
+.plan-section p{
+    font-size: 16px;
+    color: #555
+}
+
+#change{
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: hsl(245, 100%, 48%);
+}
+#change:hover{
+    cursor: pointer;
+}
+.payment{
+    margin-left: 45px;
+    background: hsl(245, 75%, 52%);
+    margin-top:20px;
+    width: 250px;
+    text-align: center;
+    padding:8px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px hsl(224, 27%, 53%)
+}
+.payment:hover{
+    cursor: pointer;
+}
+.payment a{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cancel{
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 250px;
+    text-align: center;
+    padding:8px;
+    border-radius: 10px;
+}
+.cancel a{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #555;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    .content{
+        margin: 50px auto;
+        font-size: 16px;
+    }
+
+}
+
+
+
+    
+

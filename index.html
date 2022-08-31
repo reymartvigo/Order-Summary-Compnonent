@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Order Summary Component</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Nanum+Gothic:wght@700;800&family=Roboto+Slab:wght@100;400;500&family=Roboto:ital,wght@0,300;0,400;1,100&display=swap"
+        rel="stylesheet">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="image/illustration-hero.svg" alt="illustration">
+            <h1>Order Summary</h1>
+            <p class="info"> You can now listern to millions of songs, audiobooks, and podcasts on any device anywhere
+                you
+                like!</p>
+            <div class="price-info">
+                <img src="image/icon-music.svg">
+                <div class="plan-section">
+                    <h4 id="plan">Annual Plan</h4>
+                    <p id="price"><span>&#36;</span>59.99/year</p>
+                </div>
+                <button onclick="change_value()" id="change">Change</button>
+            </div>
+            <div class="payment">
+                <a link href="">Proceed to Payment</a>
+            </div>
+            <div class="cancel">
+                <a id="c-order" link href="">Cancel Order </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
